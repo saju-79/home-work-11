@@ -72,7 +72,7 @@ const displayVideo = (videos) =>{
     videoCard.innerHTML = `
      
           <!-- card digai,n  -->
-          <div class="card bg-red-100   shadow-lg">
+          <div class="card bg-[#dfd5d5]   shadow-lg">
             <figure class="relative">
               <img
                 class="w-full h-[220px] object-cover"
