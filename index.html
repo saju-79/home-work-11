@@ -4,11 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home work </title>
+    <style>
+        .active{
+            background-color: red;
+            color: white;
+        }
+    </style>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    
+    <header class="">
+        <nav class="flex justify-between w-11/12 mx-auto border-b-2 border-[#17171740] py-4 ">
+            <div class="">
+                <img class="w-[120px]" src="Logo.png" alt="">
+            </div>
+            <div class=""> <button class="btn text-[#252525] hover:bg-[#FF1F3D] hover:text-white">Sort by view</button></div>
+            <div class=""><button class="btn bg-[#FF1F3D] text-white">Blog</button></div>
+        </nav>
+    </header>
+    <nav id="category-container" class="justify-center flex py-5 gap-5 ">
+        <div class="">
+            <button onclick="vedieoContainer()" id="btn-all " class="btn btn-sm  text-black">All</button>
+        </div>
+        
+         
+
+    </nav>
+    <section >
+        <div 
+        id="video-container"
+         class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-11/12 mx-auto space-y-2 py-3  "  
+          >
+          
+        </div>
+           <!-- page work -->
+           <div class="
+           col-span-full flex flex-col text-center items-center justify-center space-y-4 py-20">
+              <img class="text-center items-center justify-center" src="Icon.png" alt="">
+              <h3 class="font-bold text-3xl ">Oops!! Sorry, There is no content here</h3>
+          </div>
+    </section>
     <script src="script/script.js"></script>
 </body>
 </html>
